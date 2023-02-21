@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Mochiy+Pop+P+One&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: 'Alata', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.897);
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #97b1e7 !important;
+    outline: 1px solid slategrey;
+}
+
+body {
+    height: 100vh;
+    background: url("../images/bg\ \(2\).jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    height: 100vh !important;
+    position: relative;
+}
+
+.error{
+    color: rgba(255, 0, 0, 0.856);
+    background-color: white;
+    transition: all 0.8s ease;
+    left: 40%;
+    margin-left: -20px;
+    top: 50px;
+    position: absolute;
+}
+
+.calcaBody {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #13161de0;
+    border: 1px solid #406080;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 80px;
+}
+
+.display {
+    width: 100%;
+    height: 80px;
+    background-color: #0523702d;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 25px;
+}
+
+.operators input {
+    width: 20%;
+    height: auto;
+    margin: 20px auto;
+    margin-left: 11px;
+    font-size: 22px;
+    background-color: transparent;
+    border: 1px solid #406080;
+    color: white;
+}
+
+.numbers {
+    width: 80%;
+}
+
+.numbers input {
+    width: 27%;
+    height: auto;
+    margin: 20px auto;
+    margin-left: 11px;
+    font-size: 22px;
+    background-color: transparent;
+    border: 1px solid #406080;
+    color: white;
+}
+
+.equal {
+    width: 100%;
+    height: 88%;
+    margin: 20px auto;
+    margin-left: -15px;
+    font-size: 22px;
+}
+
+input {
+    cursor: pointer;
+}
